@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: install dependencies
+      - name: install all dependencies
         run: npm ci
 
       - name: build react-application
